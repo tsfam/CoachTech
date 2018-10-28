@@ -1,0 +1,1299 @@
+{
+  "sports-content": {
+    "@xmlns:bbc": "http://www.bbc.co.uk/sport/sports-data",
+    "sports-metadata": {
+      "@fixture-key": "event-stats",
+      "@fixture-name": "Event Score and Stats",
+      "@language": "en-US",
+      "@document-class": "event-summary",
+      "sports-content-codes": {
+        "sports-content-code": [
+          {
+            "@code-name": "Opta",
+            "@code-key": "optasports.com",
+            "@code-type": "publisher"
+          },
+          {
+            "@code-name": "XML Team Solutions, Inc.",
+            "@code-key": "xmlteam.com",
+            "@code-type": "distributor"
+          },
+          {
+            "@code-name": "Soccer",
+            "@code-key": 15054000,
+            "@code-type": "sport"
+          },
+          {
+            "@code-key": 15,
+            "@code-type": "tournament"
+          },
+          {
+            "@code-name": "Analysis Test",
+            "@code-key": "l.opta.test",
+            "@code-type": "league",
+            "@code-source": "xmlteam.com"
+          },
+          {
+            "@code-key": 2015,
+            "@code-type": "season"
+          },
+          {
+            "@code-key": 1,
+            "@code-type": "team"
+          },
+          {
+            "@code-key": 2,
+            "@code-type": "team"
+          }
+        ]
+      },
+      "@date-time": "2015-12-16T15:11:15+00:00",
+      "sports-property": [
+        {
+          "@value": "soccer:2015:15:event-stats::840461",
+          "@formal-name": "compound-key"
+        }
+      ],
+      "@doc-id": "xt.opta.20151216151115-840461-post-event"
+    },
+    "@xmlns": "http://iptc.org/std/SportsML/2008-04-01/",
+    "@xmlns:xts": "http://www.xmlteam.com",
+    "sports-event": {
+      "team": [
+        {
+          "team-metadata": {
+            "@alignment": "home",
+            "name": {
+              "@first": "Leeds United",
+              "@full": "Leeds United",
+              "@abbreviation": "Leeds United",
+              "@nickname": "Leeds United"
+            },
+            "@team-key": 2
+          },
+          "team-stats": {
+            "sub-score": [
+              {
+                "@period-value": "1",
+                "@score": "0"
+              },
+              {
+                "@period-value": "2",
+                "@score": "0"
+              },
+              {
+                "@period-value": "3",
+                "@score": "0"
+              },
+              {
+                "@period-value": "4",
+                "@score": "5"
+              }
+            ],
+            "@score": "0",
+            "@event-outcome": "win",
+            "@score-opposing": "0"
+          },
+          "@id": "e.840461-t.2",
+          "associate": [
+            {
+              "@id": "man38201",
+              "associate-metadata": {
+                "@position-source": "optasports.com",
+                "@position": "Manager",
+                "name": {
+                  "@first": "Steve",
+                  "@full": "Steve Evans",
+                  "@abbreviation": "Evans",
+                  "@last": "Evans"
+                },
+                "@associate-key": "man38201"
+              }
+            }
+          ],
+          "player": [
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.56486",
+              "player-metadata": {
+                "@uniform-number": "1",
+                "@player-key": "56486",
+                "@position-regular": "goalkeeper",
+                "name": {
+                  "@first": "Marco",
+                  "@full": "Marco Silvestri",
+                  "@abbreviation": "Silvestri",
+                  "@last": "Silvestri"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "1"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.113564",
+              "player-metadata": {
+                "@uniform-number": "2",
+                "@player-key": "113564",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Sam",
+                  "@full": "Sam Byram",
+                  "@abbreviation": "Byram",
+                  "@last": "Byram"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "2"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.40846",
+              "player-metadata": {
+                "@uniform-number": "5",
+                "@player-key": "40846",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Giuseppe",
+                  "@full": "Giuseppe Bellusci",
+                  "@abbreviation": "Bellusci",
+                  "@last": "Bellusci"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "5"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.55914",
+              "player-metadata": {
+                "@uniform-number": "6",
+                "@player-key": "55914",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Liam",
+                  "@full": "Liam Cooper",
+                  "@abbreviation": "Cooper",
+                  "@last": "Cooper"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "6"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.103914",
+              "player-metadata": {
+                "@uniform-number": "21",
+                "@player-key": "103914",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Charlie",
+                  "@full": "Charlie Taylor",
+                  "@abbreviation": "Taylor",
+                  "@last": "Taylor"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "3"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.87873",
+              "player-metadata": {
+                "@uniform-number": "15",
+                "@player-key": "87873",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Stuart",
+                  "@full": "Stuart Dallas",
+                  "@abbreviation": "Dallas",
+                  "@last": "Dallas"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "7"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.155408",
+              "player-metadata": {
+                "@uniform-number": "23",
+                "@player-key": "155408",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Lewis",
+                  "@full": "Lewis Cook",
+                  "@abbreviation": "Cook",
+                  "@last": "Cook"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "4"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.49836",
+              "player-metadata": {
+                "@uniform-number": "26",
+                "@player-key": "49836",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Liam",
+                  "@full": "Liam Bridcutt",
+                  "@abbreviation": "Bridcutt",
+                  "@last": "Bridcutt"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "8"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.113571",
+              "player-metadata": {
+                "@uniform-number": "10",
+                "@player-key": "113571",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Alex",
+                  "@full": "Alex Mowatt",
+                  "@abbreviation": "Mowatt",
+                  "@last": "Mowatt"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "11"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.52806",
+              "player-metadata": {
+                "@uniform-number": "7",
+                "@player-key": "52806",
+                "@position-regular": "forward",
+                "name": {
+                  "@first": "Mirco",
+                  "@full": "Mirco Antenucci",
+                  "@abbreviation": "Antenucci",
+                  "@last": "Antenucci"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "10"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.60689",
+              "player-metadata": {
+                "@uniform-number": "9",
+                "@player-key": "60689",
+                "@position-regular": "forward",
+                "name": {
+                  "@first": "Chris",
+                  "@full": "Chris Wood",
+                  "@abbreviation": "Wood",
+                  "@last": "Wood"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "9"
+                }
+              }
+            },
+            {
+              "@id": "p.19523",
+              "player-metadata": {
+                "@uniform-number": "3",
+                "@player-key": "19523",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Souleymane",
+                  "@full": "Sol Bamba",
+                  "@abbreviation": "Bamba",
+                  "@last": "Bamba"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.58340",
+              "player-metadata": {
+                "@uniform-number": "8",
+                "@player-key": "58340",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Luke",
+                  "@full": "Luke Murphy",
+                  "@abbreviation": "Murphy",
+                  "@last": "Murphy"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.38832",
+              "player-metadata": {
+                "@uniform-number": "14",
+                "@player-key": "38832",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Tommaso",
+                  "@full": "Tommaso Bianchi",
+                  "@abbreviation": "Bianchi",
+                  "@last": "Bianchi"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.131907",
+              "player-metadata": {
+                "@uniform-number": "20",
+                "@player-key": "131907",
+                "@position-regular": "forward",
+                "name": {
+                  "@first": "Jordan",
+                  "@full": "Jordan Botaka",
+                  "@abbreviation": "Botaka",
+                  "@last": "Botaka"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.17694",
+              "player-metadata": {
+                "@uniform-number": "22",
+                "@player-key": "17694",
+                "@position-regular": "goalkeeper",
+                "name": {
+                  "@first": "Ross",
+                  "@full": "Ross Turnbull",
+                  "@abbreviation": "Turnbull",
+                  "@last": "Turnbull"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.60488",
+              "player-metadata": {
+                "@uniform-number": "24",
+                "@player-key": "60488",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Tom",
+                  "@full": "Tom Adeyemi",
+                  "@abbreviation": "Adeyemi",
+                  "@last": "Adeyemi"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.155405",
+              "player-metadata": {
+                "@uniform-number": "27",
+                "@player-key": "155405",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Kalvin",
+                  "@full": "Kalvin Phillips",
+                  "@abbreviation": "Phillips",
+                  "@last": "Phillips"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "team-metadata": {
+            "@alignment": "away",
+            "name": {
+              "@first": "Manchester United",
+              "@full": "Manchester United",
+              "@abbreviation": "Manchester United",
+              "@nickname": "Manchester United"
+            },
+            "@team-key": 1
+          },
+          "team-stats": {
+            "sub-score": [
+              {
+                "@period-value": "1",
+                "@score": "0"
+              },
+              {
+                "@period-value": "2",
+                "@score": "0"
+              },
+              {
+                "@period-value": "3",
+                "@score": "0"
+              },
+              {
+                "@period-value": "4",
+                "@score": "4"
+              }
+            ],
+            "@score": "0",
+            "@event-outcome": "loss",
+            "@score-opposing": "0"
+          },
+          "@id": "e.840461-t.1",
+          "associate": [
+            {
+              "@id": "man61",
+              "associate-metadata": {
+                "@position-source": "optasports.com",
+                "@position": "Manager",
+                "name": {
+                  "@first": "Louis",
+                  "@full": "Louis van Gaal",
+                  "@abbreviation": "van Gaal",
+                  "@last": "van Gaal"
+                },
+                "@associate-key": "man61"
+              }
+            }
+          ],
+          "player": [
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.51940",
+              "player-metadata": {
+                "@uniform-number": "1",
+                "@player-key": "51940",
+                "@position-regular": "goalkeeper",
+                "name": {
+                  "@first": "David",
+                  "@full": "David de Gea",
+                  "@abbreviation": "de Gea",
+                  "@last": "de Gea"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "1"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.76359",
+              "player-metadata": {
+                "@uniform-number": "4",
+                "@player-key": "76359",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Phil",
+                  "@full": "Phil Jones",
+                  "@abbreviation": "Jones",
+                  "@last": "Jones"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "2"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.55909",
+              "player-metadata": {
+                "@uniform-number": "12",
+                "@player-key": "55909",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Chris",
+                  "@full": "Chris Smalling",
+                  "@abbreviation": "Smalling",
+                  "@last": "Smalling"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "5"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.58877",
+              "player-metadata": {
+                "@uniform-number": "17",
+                "@player-key": "58877",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Daley",
+                  "@full": "Daley Blind",
+                  "@abbreviation": "Blind",
+                  "@last": "Blind"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "6"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.58893",
+              "player-metadata": {
+                "@uniform-number": "5",
+                "@player-key": "58893",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Marcos",
+                  "@full": "Marcos Rojo",
+                  "@abbreviation": "Rojo",
+                  "@last": "Rojo"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "3"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.42774",
+              "player-metadata": {
+                "@uniform-number": "28",
+                "@player-key": "42774",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Morgan",
+                  "@full": "Morgan Schneiderlin",
+                  "@abbreviation": "Schneiderlin",
+                  "@last": "Schneiderlin"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "8"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.15208",
+              "player-metadata": {
+                "@uniform-number": "31",
+                "@player-key": "15208",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Bastian",
+                  "@full": "Bastian Schweinsteiger",
+                  "@abbreviation": "Schweinsteiger",
+                  "@last": "Schweinsteiger"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "4"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.43670",
+              "player-metadata": {
+                "@uniform-number": "8",
+                "@player-key": "43670",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Juan",
+                  "@full": "Juan Mata",
+                  "@abbreviation": "Mata",
+                  "@last": "Mata"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "7"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-foul": {
+                    "@cautions-total": "1"
+                  },
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.13017",
+              "player-metadata": {
+                "@uniform-number": "10",
+                "@player-key": "13017",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Wayne",
+                  "@full": "Wayne Rooney",
+                  "@abbreviation": "Rooney",
+                  "@last": "Rooney"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "10"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.106824",
+              "player-metadata": {
+                "@uniform-number": "7",
+                "@player-key": "106824",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Memphis",
+                  "@full": "Memphis Depay",
+                  "@abbreviation": "Depay",
+                  "@last": "Depay"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "11"
+                }
+              }
+            },
+            {
+              "player-stats": {
+                "@date-coverage-type": "event",
+                "@time-played-total": "120",
+                "@team-coverage": "single-team",
+                "@events-started": "1",
+                "player-stats-soccer": {
+                  "stats-soccer-defensive": {
+                    "@shutouts": "1",
+                    "@goals-against-total": "0"
+                  }
+                }
+              },
+              "@id": "p.148225",
+              "player-metadata": {
+                "@uniform-number": "9",
+                "@player-key": "148225",
+                "@position-regular": "forward",
+                "name": {
+                  "@first": "Anthony",
+                  "@full": "Anthony Martial",
+                  "@abbreviation": "Martial",
+                  "@last": "Martial"
+                },
+                "@status": "starter",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "9"
+                }
+              }
+            },
+            {
+              "@id": "p.2404",
+              "player-metadata": {
+                "@uniform-number": "16",
+                "@player-key": "2404",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Michael",
+                  "@full": "Michael Carrick",
+                  "@abbreviation": "Carrick",
+                  "@last": "Carrick"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.18892",
+              "player-metadata": {
+                "@uniform-number": "18",
+                "@player-key": "18892",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Ashley",
+                  "@full": "Ashley Young",
+                  "@abbreviation": "Young",
+                  "@last": "Young"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.42899",
+              "player-metadata": {
+                "@uniform-number": "20",
+                "@player-key": "42899",
+                "@position-regular": "goalkeeper",
+                "name": {
+                  "@first": "Sergio",
+                  "@full": "Sergio Romero",
+                  "@abbreviation": "Romero",
+                  "@last": "Romero"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.59846",
+              "player-metadata": {
+                "@uniform-number": "21",
+                "@player-key": "59846",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Ander",
+                  "@full": "Ander Herrera",
+                  "@abbreviation": "Herrera",
+                  "@last": "Herrera"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.106760",
+              "player-metadata": {
+                "@uniform-number": "23",
+                "@player-key": "106760",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Luke",
+                  "@full": "Luke Shaw",
+                  "@abbreviation": "Shaw",
+                  "@last": "Shaw"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.41184",
+              "player-metadata": {
+                "@uniform-number": "27",
+                "@player-key": "41184",
+                "@position-regular": "midfielder",
+                "name": {
+                  "@first": "Marouane",
+                  "@full": "Marouane Fellaini",
+                  "@abbreviation": "Fellaini",
+                  "@last": "Fellaini"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            },
+            {
+              "@id": "p.40002",
+              "player-metadata": {
+                "@uniform-number": "36",
+                "@player-key": "40002",
+                "@position-regular": "defender",
+                "name": {
+                  "@first": "Matteo",
+                  "@full": "Matteo Darmian",
+                  "@abbreviation": "Darmian",
+                  "@last": "Darmian"
+                },
+                "@status": "bench",
+                "player-metadata-soccer": {
+                  "@line-formation-position": "0"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "event-metadata": {
+        "site": {
+          "site-stats": {
+            "@alignment": "home"
+          },
+          "site-metadata": {
+            "@site-key": "s.29",
+            "name": {
+              "@first": "Elland Road",
+              "@full": "Elland Road",
+              "@abbreviation": "Elland Road"
+            }
+          }
+        },
+        "@event-status-note": "Result",
+        "@event-key": 840461,
+        "@event-outcome-type": "shootout",
+        "@event-status": "post-event",
+        "@event-name": "Leeds United v Manchester United",
+        "event-metadata-soccer": {
+          "@week": "",
+          "@minutes-elapsed": 120
+        },
+        "@start-date-time": "2015-12-16T14:30:00+00:00"
+      },
+      "event-actions": {
+        "event-actions-soccer": {
+          "action-soccer-score": [
+            {
+              "@created": "20151216T150601+0000",
+              "@sequence-number": "1216150601",
+              "@team-idref": "e.840461-t.2",
+              "@score-attempt-type": "shootout",
+              "@period-value": "4",
+              "@id": "a.2083587141",
+              "@minutes-elapsed": "121",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.113564",
+                  "@team-idref": "e.840461-t.2",
+                  "@role": "scorer"
+                }
+              ]
+            },
+            {
+              "@created": "20151216T150639+0000",
+              "@sequence-number": "1216150639",
+              "@team-idref": "e.840461-t.1",
+              "@score-attempt-type": "shootout",
+              "@period-value": "4",
+              "@id": "a.878018843",
+              "@minutes-elapsed": "121",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.148225",
+                  "@team-idref": "e.840461-t.1",
+                  "@role": "scorer"
+                }
+              ]
+            },
+            {
+              "@created": "20151216T150700+0000",
+              "@sequence-number": "1216150700",
+              "@team-idref": "e.840461-t.2",
+              "@score-attempt-type": "shootout",
+              "@period-value": "4",
+              "@id": "a.1501416085",
+              "@minutes-elapsed": "122",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.155408",
+                  "@team-idref": "e.840461-t.2",
+                  "@role": "scorer"
+                }
+              ]
+            },
+            {
+              "@created": "20151216T150727+0000",
+              "@sequence-number": "1216150727",
+              "@team-idref": "e.840461-t.1",
+              "@score-attempt-type": "shootout",
+              "@period-value": "4",
+              "@id": "a.947032879",
+              "@minutes-elapsed": "122",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.42774",
+                  "@team-idref": "e.840461-t.1",
+                  "@role": "scorer"
+                }
+              ]
+            },
+            {
+              "@created": "20151216T150750+0000",
+              "@sequence-number": "1216150750",
+              "@team-idref": "e.840461-t.2",
+              "@score-attempt-type": "shootout",
+              "@period-value": "4",
+              "@id": "a.1097968057",
+              "@minutes-elapsed": "123",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.49836",
+                  "@team-idref": "e.840461-t.2",
+                  "@role": "scorer"
+                }
+              ]
+            },
+            {
+              "@created": "20151216T150822+0000",
+              "@sequence-number": "1216150822",
+              "@team-idref": "e.840461-t.1",
+              "@score-attempt-type": "shootout",
+              "@period-value": "4",
+              "@id": "a.655263993",
+              "@minutes-elapsed": "123",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.13017",
+                  "@team-idref": "e.840461-t.1",
+                  "@role": "scorer"
+                }
+              ]
+            },
+            {
+              "@created": "20151216T150853+0000",
+              "@sequence-number": "1216150853",
+              "@team-idref": "e.840461-t.2",
+              "@score-attempt-type": "shootout",
+              "@period-value": "4",
+              "@id": "a.1956900505",
+              "@minutes-elapsed": "124",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.113571",
+                  "@team-idref": "e.840461-t.2",
+                  "@role": "scorer"
+                }
+              ]
+            },
+            {
+              "@created": "20151216T150918+0000",
+              "@sequence-number": "1216150918",
+              "@team-idref": "e.840461-t.1",
+              "@score-attempt-type": "shootout",
+              "@period-value": "4",
+              "@id": "a.222732912",
+              "@minutes-elapsed": "124",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.58877",
+                  "@team-idref": "e.840461-t.1",
+                  "@role": "scorer"
+                }
+              ]
+            },
+            {
+              "@created": "20151216T150942+0000",
+              "@sequence-number": "1216150942",
+              "@team-idref": "e.840461-t.2",
+              "@score-attempt-type": "shootout",
+              "@period-value": "4",
+              "@id": "a.304502581",
+              "@minutes-elapsed": "124",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.60689",
+                  "@team-idref": "e.840461-t.2",
+                  "@role": "scorer"
+                }
+              ]
+            }
+          ],
+          "action-soccer-penalty": [
+            {
+              "@penalty-type": "foul",
+              "@created": "20151216T150248+0000",
+              "@sequence-number": "1216150248",
+              "@recipient-type": "player",
+              "@team-idref": "e.840461-t.1",
+              "@period-value": "2",
+              "@penalty-level": "yellow-card",
+              "@id": "a.579508284",
+              "@minutes-elapsed": "60",
+              "@recipient-idref": "p.13017",
+              "@comment": "Foul"
+            }
+          ],
+          "action-soccer-play": [
+            {
+              "@play-type": "shot",
+              "@created": "20151216T151014+0000",
+              "@sequence-number": "1216151014",
+              "@team-idref": "e.840461-t.1",
+              "@score-attempt-type": "shootout",
+              "@score-attempt-result": "missed",
+              "@period-value": "4",
+              "@id": "a.1085147101",
+              "@minutes-elapsed": "125",
+              "action-soccer-play-participant": [
+                {
+                  "@player-idref": "p.76359",
+                  "@team-idref": "e.840461-t.1",
+                  "@role": ""
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
